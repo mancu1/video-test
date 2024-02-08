@@ -1,0 +1,25 @@
+{
+  "name": "video-test",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@types/vimeo__player": "^2.18.3",
+    "@vimeo/player": "^2.21.0",
+    "plyr": "^3.7.8",
+    "video.js": "^8.10.0",
+    "videojs-youtube": "^3.0.1",
+    "vue": "^3.3.11"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.5.2",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.8",
+    "vue-tsc": "^1.8.25"
+  }
+}
